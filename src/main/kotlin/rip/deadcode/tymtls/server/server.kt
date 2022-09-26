@@ -6,7 +6,6 @@ import org.eclipse.jetty.server.HttpConfiguration
 import org.eclipse.jetty.server.HttpConnectionFactory
 import org.eclipse.jetty.server.Request
 import org.eclipse.jetty.server.SecureRequestCustomizer
-import org.eclipse.jetty.server.SecureRequestCustomizer.JAKARTA_SERVLET_REQUEST_KEY_SIZE
 import org.eclipse.jetty.server.SecureRequestCustomizer.JAKARTA_SERVLET_REQUEST_X_509_CERTIFICATE
 import org.eclipse.jetty.server.Server
 import org.eclipse.jetty.server.ServerConnector
