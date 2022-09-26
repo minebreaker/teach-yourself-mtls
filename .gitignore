@@ -1,0 +1,7 @@
+.gradle
+build
+
+*.crt
+*.csr
+*.key
+*.p12
