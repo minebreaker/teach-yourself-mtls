@@ -1,3 +1,5 @@
+# teach-yourself-mtls
+
 ```
 export NAME=server
 export NAME=client
@@ -117,3 +119,16 @@ curl -v --cacert serverca.crt https://localhost:8080
 curl -v --cacert serverca.crt --key client.key --cert client.crt:$PASS https://localhost:8080
 # クライアント証明をしたので成功する
 ```
+
+
+## 参考文献
+
+* https://qiita.com/kentarok/items/15c08350274fa5578aaf#3-%E3%82%AF%E3%83%A9%E3%82%A4%E3%82%A2%E3%83%B3%E3%83%88%E8%A8%BC%E6%98%8E%E6%9B%B8%E3%81%AE%E6%BA%96%E5%82%99%E7%A2%BA%E8%AA%8D
+* https://docs.oracle.com/en/java/javase/19/docs/specs/man/keytool.html
+* https://docs.oracle.com/en/database/other-databases/nosql-database/21.2/security/import-key-pair-java-keystore.html
+* https://stackoverflow.com/questions/906402/how-to-import-an-existing-x-509-certificate-and-private-key-in-java-keystore-to
+* https://qiita.com/kunichiko/items/12cbccaadcbf41c72735#%E8%A8%BC%E6%98%8E%E6%9B%B8%E7%BD%B2%E5%90%8D%E4%BB%98%E3%81%8D%E3%81%AE%E5%85%AC%E9%96%8B%E9%8D%B5%E3%82%92%E4%BD%9C%E6%88%90%E3%81%99%E3%82%8B
+* https://qiita.com/takech9203/items/5206f8e2572e95209bbc
+* https://gist.github.com/crpietschmann/35024f1da2a5beb0466e616ce1d7a876
+* https://stackoverflow.com/questions/19014541/curl-to-pass-ssl-certifcate-and-password
+* https://qiita.com/riversun/items/2909019123b28471ea79
