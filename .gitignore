@@ -6,3 +6,6 @@ build
 *.csr
 *.key
 *.p12
+*.srl
+*.keystore
+
